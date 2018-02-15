@@ -5,7 +5,18 @@
   },
   "ios": {
     "copy": [
-      { "source": "ios/**/*", "dest": "{{{projectName}}}/Libraries/RNSVG"}
+      { "source": "ios/Brushes", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/Elements", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/Shapes", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/Text", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/Utils", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/ViewManagers", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVGContainer.h", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVGNode.h", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVGNode.m", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVGRenderable.h", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVGRenderable.m", "dest": "{{{projectName}}}/Libraries/RNSVG" },
+      { "source": "ios/RNSVG.xcodeproj", "dest": "{{{projectName}}}/Libraries/RNSVG"}
     ],
     "pbxproj": {
        "addProject": [
