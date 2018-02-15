@@ -1,7 +1,8 @@
 [
   {
-    "platformVersion": "0.x",
+    "platformVersion": "0.13.x",
     "targetNativeDependencies": [
+      "react-native-svg@6.2.1",
     ],
     "targetJsDependencies": [
     ]
