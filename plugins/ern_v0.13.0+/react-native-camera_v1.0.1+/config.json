@@ -1,0 +1,21 @@
+{
+  "android": {
+    "root": "",
+    "moduleName": "android"
+  },
+  "ios": {
+    "copy": [
+      { "source": "ios/RCT", "dest": "{{{projectName}}}/Libraries/RNCamera" },
+      { "source": "ios/RN", "dest": "{{{projectName}}}/Libraries/RNCamera" },
+      { "source": "ios/RNCamera.xcodeproj", "dest": "{{{projectName}}}/Libraries/RNCamera" }
+    ],
+    "pbxproj": {
+       "addProject": [
+        { "path": "RNCamera/RNCamera.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libRNCamera.a", "target": "RNCamera" } ] }
+      ],
+      "addHeaderSearchPath": [
+        "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNCamera/**\""
+      ]
+    }
+  }
+}

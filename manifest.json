@@ -3,7 +3,8 @@
     "platformVersion": "0.13.x",
     "targetNativeDependencies": [
       "react-native-svg@6.2.1",
-      "react-native-view-shot@2.3.0"
+      "react-native-view-shot@2.3.0",
+      "react-native-camera@1.0.1"
     ],
     "targetJsDependencies": [
     ]
