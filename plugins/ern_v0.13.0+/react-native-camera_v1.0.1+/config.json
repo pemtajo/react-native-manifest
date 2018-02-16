@@ -1,7 +1,14 @@
 {
   "android": {
     "root": "",
-    "moduleName": "android"
+    "moduleName": "android",
+    "dependencies": [
+      "com.google.zxing:core:3.2.1",
+      "com.drewnoakes:metadata-extractor:2.9.1",
+      "com.google.android.gms:play-services-vision:+",
+      "com.android.support:exifinterface:+",
+      "com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa"
+    ]
   },
   "ios": {
     "copy": [
