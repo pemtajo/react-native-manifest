@@ -6,7 +6,7 @@
       "com.google.zxing:core:3.2.1",
       "com.drewnoakes:metadata-extractor:2.9.1",
       "com.android.support:exifinterface:+",
-      "com.github.react-native-community:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa"
+      "com.github.react-native-community:cameraview:3eaeac09a7f084463a94850c763d21fdb4c18fce"
     ]
   },
   "ios": {
