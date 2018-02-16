@@ -7,7 +7,7 @@
       "com.drewnoakes:metadata-extractor:2.9.1",
       "com.google.android.gms:play-services-vision:10.2.0",
       "com.android.support:exifinterface:25.3.1",
-      "com.google:cameraview:3eaeac09a7f084463a94850c763d21fdb4c18fce"
+      "com.google:cameraview:d5d9b0d925494ef451ce3eef3fdf14cc874d9baa"
     ]
   },
   "ios": {
