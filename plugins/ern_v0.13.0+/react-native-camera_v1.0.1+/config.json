@@ -14,12 +14,11 @@
     "copy": [
       { "source": "ios/RCT", "dest": "{{{projectName}}}/Libraries/RNCamera" },
       { "source": "ios/RN", "dest": "{{{projectName}}}/Libraries/RNCamera" },
-      { "source": "ios/FaceDetector", "dest": "{{{projectName}}}/Libraries/RNCamera" },
-      { "source": "ios/RNCamera.xcodeproj", "dest": "{{{projectName}}}/Libraries/RNCamera" }
+      { "source": "postinstall_project/projectWithoutFaceDetection.pbxproj", "dest": "{{{projectName}}}/Libraries/RNCamera" }
     ],
     "pbxproj": {
        "addProject": [
-        { "path": "RNCamera/RNCamera.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libRNCamera.a", "target": "RNCamera" } ] }
+        { "path": "RNCamera/projectWithoutFaceDetection.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libRNCamera.a", "target": "RNCamera" } ] }
       ],
       "addHeaderSearchPath": [
         "\"$(SRCROOT)/{{{projectName}}}/Libraries/RNCamera/**\""
