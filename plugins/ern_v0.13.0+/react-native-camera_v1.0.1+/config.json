@@ -14,7 +14,7 @@
     "copy": [
       { "source": "ios/RCT", "dest": "{{{projectName}}}/Libraries/RNCamera" },
       { "source": "ios/RN", "dest": "{{{projectName}}}/Libraries/RNCamera" },
-      { "source": "ios/RNCamera.xcodeproj", "dest": "{{{projectName}}}/Libraries/RNCamera" }
+      { "source": "ios/RNCamera.xcodeproj", "dest": "{{{projectName}}}/Libraries/RNCamera" },
       { "source": "postinstall_project/projectWithoutFaceDetection.pbxproj", "dest": "{{{projectName}}}/Libraries/RNCamera/ios/RNCamera.xcodeproj" }
     ],
     "pbxproj": {
